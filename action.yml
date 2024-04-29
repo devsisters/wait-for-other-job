@@ -13,7 +13,7 @@ inputs:
     description: 'If true, the action will fail case an error happen in the job you are waiting for'
     default: 'false'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'clock'
